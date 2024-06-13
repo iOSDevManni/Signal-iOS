@@ -48,7 +48,7 @@ class AppUpdateNag: NSObject {
             if error.isNetworkFailureOrTimeout || !bundleIdentifier.hasPrefix("org.whispersystems") {
                 Logger.warn("failed with error: \(error)")
             } else {
-                owsFailDebug("Failed to find Signal app store record")
+//                owsFailDebug("Failed to find Signal app store record")
             }
         }
     }
